@@ -1,10 +1,65 @@
+```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello World</title>
 </head>
-<body>
-    <h1>Hello World 🌍</h1>
-    <p>This is my first Cloudflare deployment!</p>
+
+<body style="
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+">
+
+    <div style="
+        background: white;
+        padding: 40px;
+        border-radius: 15px;
+        text-align: center;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        max-width: 400px;
+        width: 90%;
+    ">
+        <h1 style="
+            margin: 0;
+            font-size: 36px;
+            color: #333;
+        ">
+            Hello World 🌍
+        </h1>
+
+        <p style="
+            margin-top: 15px;
+            color: #666;
+            font-size: 16px;
+        ">
+            Welcome to your first Cloudflare deployment!
+        </p>
+
+        <button style="
+            margin-top: 20px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            background: #667eea;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        "
+        onmouseover="this.style.background='#5a67d8'"
+        onmouseout="this.style.background='#667eea'">
+            Click Me 🚀
+        </button>
+    </div>
+
 </body>
 </html>
+```
